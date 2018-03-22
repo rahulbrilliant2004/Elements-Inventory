@@ -1,0 +1,11 @@
+To Overlap keyboard 
+
+/home/techinfini/React-Native-program/Client/ElementsInventory/android/app/src/main/java/com/elementsinventory/MainApplication.java
+
+replace
+
+android:windowSoftInputMode="adjustResize"
+
+To
+
+android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
